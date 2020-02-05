@@ -13,10 +13,11 @@
 		2954517323DFBEB0006DE2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2954517223DFBEB0006DE2A3 /* Assets.xcassets */; };
 		2954517623DFBEB0006DE2A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2954517523DFBEB0006DE2A3 /* Preview Assets.xcassets */; };
 		2954517923DFBEB0006DE2A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2954517723DFBEB0006DE2A3 /* LaunchScreen.storyboard */; };
+		2954518123EAC551006DE2A3 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2954518023EAC551006DE2A3 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2954516923DFBEAE006DE2A3 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2954516923DFBEAE006DE2A3 /* Bull's Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bull's Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2954516C23DFBEAE006DE2A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2954516E23DFBEAE006DE2A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2954517023DFBEAE006DE2A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		2954517523DFBEB0006DE2A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2954517823DFBEB0006DE2A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2954517A23DFBEB0006DE2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2954518023EAC551006DE2A3 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		2954516A23DFBEAE006DE2A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2954516923DFBEAE006DE2A3 /* Bullseye.app */,
+				2954516923DFBEAE006DE2A3 /* Bull's Eye.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +65,7 @@
 				2954517723DFBEB0006DE2A3 /* LaunchScreen.storyboard */,
 				2954517A23DFBEB0006DE2A3 /* Info.plist */,
 				2954517423DFBEB0006DE2A3 /* Preview Content */,
+				2954518023EAC551006DE2A3 /* AboutView.swift */,
 			);
 			path = Bullseye;
 			sourceTree = "<group>";
@@ -92,7 +95,7 @@
 			);
 			name = Bullseye;
 			productName = Bullseye;
-			productReference = 2954516923DFBEAE006DE2A3 /* Bullseye.app */;
+			productReference = 2954516923DFBEAE006DE2A3 /* Bull's Eye.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,6 +151,7 @@
 			files = (
 				2954516D23DFBEAE006DE2A3 /* AppDelegate.swift in Sources */,
 				2954516F23DFBEAE006DE2A3 /* SceneDelegate.swift in Sources */,
+				2954518123EAC551006DE2A3 /* AboutView.swift in Sources */,
 				2954517123DFBEAE006DE2A3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +298,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.robertjacksonjr.Bullseye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bull's Eye";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.robertjacksonjr.Bullseye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bull's Eye";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
